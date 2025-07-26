@@ -1,0 +1,36 @@
+# Ignore build artifacts
+/build/
+/build/*
+
+# Ignore output images and processed files
+/output/
+/output/*
+
+# Ignore reports generated files
+/reports/generated/
+/reports/generated/*
+
+# Ignore benchmarking performance logs
+/benchmarking/performance_logs/
+/benchmarking/performance_logs/*
+
+# Ignore IDE settings
+.vscode/
+
+# Ignore compiled binaries and object files
+*.exe
+*.obj
+*.o
+*.pdb
+
+# Ignore temporary files
+*.tmp
+*.log
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore other system files
+.DS_Store
+Thumbs.db
